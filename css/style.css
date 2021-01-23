@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family:  'Rubik', sans-serif;
+}
+
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+
+.header{
+  padding: 20px;
+  height:70px;
+  background-color: yellow;
+  color: #29b1dd;
+  font-family: 'Acme', sans-serif;
+  font-size: 300%;
+}
+
+
+.search{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  color: white;
+  text-transform: uppercase;
+  font-size: 130%;
+
+}
+
+.search select {
+  margin-left: 15px;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.icons .icon {
+  flex-basis: calc(100% / 6 - 20px);
+  padding: 20px;
+  margin: 20px;
+  background-color: yellow;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.icons .icon i{
+  font-size: 250%;
+
+}
